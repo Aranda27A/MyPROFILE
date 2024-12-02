@@ -1,0 +1,50 @@
+:root{
+    --font-primary: arial;
+    --font-secondary: arial;
+    --main-color: #a598eb;
+    --secondary-color: #92c6e4;
+
+    /* --font-size-small
+    --font-size-medium
+    --font-size-large
+    --font-size-extra-large */
+
+
+    /* Mientras Avanzo mas pondre mas custom propieties */
+  
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(1110deg, var(--main-color), var(--secondary-color));
+
+}
+
+header{
+    margin: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    font-weight: bold;
+    background-color: rgb(255, 96, 110);
+
+}
+
+
+
+
+nav ul{
+
+    list-style-type: none;
+    text-align: center;
+    padding: 0; 
+    margin: 15px
+
+
+}
